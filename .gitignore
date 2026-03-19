@@ -1,0 +1,30 @@
+# =========================
+# Python & Environments
+# =========================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Data & Archives (CRITICAL)
+# =========================
+# Ignores your heavy unzipped folder and any zip files
+data_Q4_2025/
+*.zip
+
+# Ignores the massive generated datasets
+*.csv
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
